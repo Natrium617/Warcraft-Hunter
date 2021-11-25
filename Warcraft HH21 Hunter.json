@@ -50,7 +50,7 @@
 					{
 						"choose": {
 							"from": [
-								"animal handling"
+								"animal handling",
 								"insight",
 								"investigation",
 								"nature",
@@ -83,7 +83,7 @@
 					{
 						"a": [
 							"short sword|PHB",
-							"quantity": 2
+							"short sword|PHB"
 						],
 						"b": [
 							{
