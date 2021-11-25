@@ -1,0 +1,1454 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "heroeshandbook:hunter",
+				"full": "Warcraft Hunter HH2.1",
+				"abbreviation": "Hunter",
+				"authors": [
+					"u/Jihia, u/TangerineThunder"
+				],
+				"convertedBy": [
+					"LimeBread"
+				],
+				"url": "https://www.reddit.com/r/wc5e/comments/av2256/warcraft_heroes_handbook_v21/",
+				"version": "2.1"
+			}
+		],
+		"optionalFeatureTypes": {
+			"Hunter:R": "Alchemy Recipe"
+		},
+		"dateAdded": 1557168726,
+		"dateLastModified": 1557168726
+	},
+	"class": [
+		{
+			"name": "Hunter",
+			"source": "heroeshandbook:hunter",
+			"hd": {
+				"number": 1,
+				"faces": 10
+			},
+			"proficiency": [
+				"dex",
+				"str"
+			],
+			"startingProficiencies": {
+				"armor": [
+					"light",
+					"medium"
+				],
+				"weapons": [
+					"simple",
+					"melee martial",
+					"firearms"
+				],
+				"tools": [
+					"none"
+				],
+				"skills": [
+					{
+						"choose": {
+							"from": [
+								"animal handling"
+								"insight",
+								"investigation",
+								"nature",
+								"perception",
+								"stealth",
+								"survival"
+							],
+							"count": 3
+						}
+					}
+				]
+			},
+			"startingEquipment": {
+				"additionalFromBackground": true,
+				"default": [
+					"(a) {@item scale mail|PHB}, (b) {@item leather armor|PHB}",
+					"(a) two {@item short sword|PHB|short sword} or (b) two {@filter simple weapon|items|source=PHB|category=basic|type=simple weapon}",
+					"(a) an {@item explorer's pack|PHB} or (b) a {@item dungeoneer's pack|PHB}",
+					"A {@item longbow|phb|longbow} and a quiver of {@item arrows (20)|phb|20 arrows}"
+				],
+				"defaultData": [
+					{
+						"a": [
+							"scale mail|PHB"
+						],
+						"b": [
+							"leather armor|PHB"
+						]
+					},
+					{
+						"a": [
+							"short sword|PHB",
+							"quantity": 2
+						],
+						"b": [
+							{
+								"equipmentType": "weaponSimple"
+							},
+							{
+								"equipmentType": "weaponSimple"
+							}
+						]
+					},
+					{
+						"a": [
+							"explorer's pack|PHB"
+						],
+						"b": [
+							"dungeoneer's pack|PHB"
+						]
+					},
+					{	"_": [
+							"longbow|PHB",
+							"arrows (20)|PHB"
+						]
+					}
+				]
+			},
+			"fluff": [
+				{
+					"source": "heroeshandbook:hunter",
+					"page": 1,
+					"entries": [
+						{
+							"type": "quote",
+							"entries": [
+								"The way of the hunter is one of mastery over the beasts of
+								the world, an unparalleled precision in marksmanship, and
+								the knowledge of how to survive in situations where others
+								would perish."
+							],
+							"by": "Ranger Sallina"
+						},
+						"Wild and barbaric looking, a human stalks alone through
+						the shadows of trees, hunting the orcs he knows are
+						planning a raid on a nearby farm. Clutching a spear in his
+						hands, he charges in with intense fury, a large bear running
+						at his side, roaring as he engages, cutting down one enemy
+						after another.
+						Tumbling away from a cone of freezing air, a night elf
+						finds her feet and draws back her bow to loose an arrow at
+						the blue dragon. Shrugging off the wave of fear that
+						emanates from the dragon like the cold of its breath, she
+						sends one arrow after another to find the gaps between the
+						dragon's thick scales.
+						Holding his hand high, a blood elf whistles to the hawk
+						that circles high above him, calling the bird back to his
+						side. Whispering instructions in Thalassian, he points to
+						the owlbear he's been tracking and sends the hawk to
+						distract the creature while he readies his bow.",
+						{
+							"type": "entries",
+							"name": "Quick Build",
+							"entries": [
+								"You can make a hunter quickly by following these suggestions.
+								First, make Dexterity your highest ability score,
+								followed by Wisdom. (Some hunters who focus on melee
+								fighting make Strength higher than Dexterity.)"
+							]
+						}
+					],
+					"name": "Hunter",
+					"type": "section"
+				}
+			],
+			"classTableGroups": [
+				{
+					"colLabels": [
+						"Hunter's Mark"]
+					"rows": [
+						[
+							-
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 4
+									}
+								]
+							},
+							1
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 4
+									}
+								]
+							},
+							1
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 4
+									}
+								]
+							},
+							1
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 4
+									}
+								]
+							},
+							1
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 4
+									}
+								]
+							},
+							2
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 6
+									}
+								]
+							},
+							2
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 6
+									}
+								]
+							},
+							2
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 6
+									}
+								]
+							},
+							2
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 6
+									}
+								]
+							},
+							3
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 6
+									}
+								]
+							},
+							3
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 8
+									}
+								]
+							},
+							3
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 8
+									}
+								]
+							},
+							4
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 8
+									}
+								]
+							},
+							4
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 8
+									}
+								]
+							},
+							4
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 8
+									}
+								]
+							},
+							4
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 10
+									}
+								]
+							},
+							4
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 10
+									}
+								]
+							},
+							5
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 10
+									}
+								]
+							},
+							5
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 10
+									}
+								]
+							},
+							5
+						]
+					]
+				},
+				{
+					"colLabels": [
+						"Focus Points"
+					],
+					"rows": [
+						[
+							0
+						],
+						[
+							2
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							6
+						],
+						[
+							6
+						],
+						[
+							6
+						],
+						[
+							7
+						],
+						[
+							7
+						],
+						[
+							7
+						],
+						[
+							8
+						],
+						[
+							8
+						],
+						[
+							8
+						]
+					]
+				}
+			],
+			"classFeatures": [
+				"Animal Empathy|Hunter|heroeshandbook:hunter|1",
+				"Natural Explorer|Hunter|heroeshandbook:hunter|1",
+				"Hunter's Mark|Hunter|heroeshandbook:hunter|2",
+				"Focus (2 Attacks)|Hunter|heroeshandbook:hunter|2",
+				{
+					"classFeature": "Hunter Archetype|Hunter|heroeshandbook:hunter|3",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Hunter|heroeshandbook:hunter|4",
+				"Extra Attack|Hunter|heroeshandbook:hunter|5",
+				"Focus (3 Attacks)|Hunter|heroeshandbook:hunter|6",
+				{
+					"classFeature": "Hunter Archetype Feature|Hunter|heroeshandbook:hunter|7",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Hunter|heroeshandbook:hunter|8",
+				"Fleet of Foot|Hunter|heroeshandbook:hunter|8",
+				"Know Your Prey|Hunter|heroeshandbook:hunter|9",
+				"Focus (4 Attacks)|Hunter|heroeshandbook:hunter|10",
+				{
+					"classFeature": "Hunter Archetype Feature|Hunter|heroeshandbook:hunter|11",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Hunter|heroeshandbook:hunter|12",
+				"Hide in Plain Sight|Hunter|heroeshandbook:hunter|13",
+				"Focus (5 Attacks)|Hunter|heroeshandbook:hunter|14",
+				{
+					"classFeature": "Hunter Archetype Feature|Hunter|heroeshandbook:hunter|15",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Hunter|heroeshandbook:hunter|16",
+				"Honed Senses|Hunter|heroeshandbook:hunter|17",
+				"Focus (6 Attacks)|Hunter|heroeshandbook:hunter|18",
+				"Ability Score Improvement|Hunter|heroeshandbook:hunter|19",
+				"Aspect of the Wild|Hunter|heroeshandbook:hunter|20"
+			],
+			"subclassTitle": "Hunter Archetype"
+		}
+	],
+	"classFeature": [
+		{
+			"name": "Animal Empathy",
+			"source": "heroeshandbook:hunter",
+			"className": "Hunter",
+			"classSource": "heroeshandbook:hunter",
+			"level": 1,
+			"entries": [
+				"Your mastery of hunter lore allows you to establish a link to
+				beasts and to the land around you.
+				You have an innate ability to communicate with beasts,
+				and they recognize you as a kindred spirit. Through sounds
+				and gestures, you can communicate simple ideas to a beast
+				as an action, and can read its basic mood and intent. You
+				learn its emotional state, whether it is affected by magic of
+				any sort, its short-term needs, and actions you can take to
+				persuade it to not attack.
+				You cannot use this ability against a creature that you
+				have attacked within the past 10 minutes."
+			]
+		},
+		{
+			"name": "Natural Explorer",
+			"source": "heroeshandbook:hunter",
+			"className": "Hunter",
+			"classSource": "heroeshandbook:hunter",
+			"level": 1,
+			"entries": [
+				"You are familiar with natural environments and are adept
+				at traveling and surviving in such regions. This grants you
+				the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You ignore nonmagical difficult terrain.",
+						"You have advantage on initiative rolls.",
+						"On your first turn during combat, you have advantage on
+						attack rolls against creatures that have not yet acted."
+					]
+				},
+				"In addition, you are skilled at navigating the wilderness.
+				You gain the following benefits when traveling for an hour
+				or more.",
+				{
+					"type": "list",
+					"items": [
+						"Difficult terrain doesn't slow your group's travel.",
+						"Your group can't become lost except by magical means.",
+						"Even when you are engaged in another activity while
+						traveling (such as foraging, navigating, or tracking), you
+						remain alert to danger.",
+						"If you are traveling alone with or without your pet, you
+						can move stealthily at a normal pace.",
+						"When you forage, you find twice as much food as you
+						normally would.",
+						"While tracking other creatures, you also learn their
+						exact number, their sizes, and how long ago they passed
+						through the area."
+					]
+				}
+			]
+		},
+		{
+			"name": "Fighting Style",
+			"source": "heroeshandbook:hunter",
+			"className": "Hunter",
+			"classSource": "heroeshandbook:hunter",
+			"level": 2,
+			"entries": [
+				"At 2nd level, you adopt a particular style of fighting as your specialty. Choose one of the following options. You can't take the same Fighting Style option more than once, even if you get to choose again.",
+				{
+					"type": "options",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Archery",
+							"entries": [
+								"You gain a +2 bonus to attack rolls you make with ranged weapons."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Close Quarters Shooter",
+							"entries": [
+								"When making a ranged attack while you are within 5 feet of
+								a hostile creature, you do not have disadvantage on the
+								attack roll. Your ranged attacks ignore half cover and threequarters
+								cover against targets within 30 feet of you. Finally,
+								you have a +1 bonus to attack rolls on ranged attacks."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Two-Weapon Fighting",
+							"entries": [
+								"When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Great Weapon Fighting",
+							"entries": [
+								"When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Focus",
+			"source": "heroeshandbook:hunter",
+			"className": "Hunter",
+			"classSource": "heroeshandbook:hunter",
+			"level": 2,
+			"entries": [
+				"Starting at 2nd level, you learn to enter a heightened state
+				of focus in combat. Your access to this focus is represented
+				by a number of focus points. Your hunter level determines
+				the number of focus points you have, as shown in the Focus
+				Points column of the Hunter table.
+				You can spend these points to perform various focus features.
+				Each focused attack must be declared before making
+				an attack, unless otherwise specified. You can only use one
+				focused attack per attack roll.
+				You learn two focused attacks of your choice when you
+				gain this feature, which are detailed under Focused Attacks
+				below. You learn an additional focused attack of your choice
+				at 6th, 10th, 14th, and 18th level. When you learn a new
+				focused attack, you can also replace one focused attack you
+				know with another from the list.
+				When you spend a focus point, it is unavailable until you
+				finish a short or long rest, at the end of which your focus is
+				regained. Additionally you regain 1 expended focus point
+				each time you roll a 20 on the d20 roll for an attack with a
+				weapon, or deal the killing blow to a creature of significant
+				threat (DM's discretion).
+				Some of your focused attacks require your target to
+				make a saving throw to resist the attacks effect.",
+				{
+					"type": "entries",
+					"name": "Saving Throws",
+					"entries": [
+						"The saving throw DC is calculated as follows:",
+						{
+							"type": "abilityDc",
+							"name": "Focus",
+							"attributes": [
+								"wis"
+							]
+						}
+					]
+				},
+				{
+					"type": "options",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Aimed Attack",
+							"entries": [
+								"When you make a weapon attack against
+								a creature, you can spend 1 focus point to attempt to topple
+								a target. On a hit, the target suffers normal damage, and
+								must succeed Strength save or be knocked prone."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Carving Strike",
+							"entries": [
+								"When you make a melee weapon attack
+								against a creature, you can spend 1 focus point to make an
+								attack roll against each target directly on either side of your
+								initial attack. On a hit, roll damage for one target, any
+								additional creature hit takes the same amount of damage."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Concussive Attack",
+							"entries": [
+								"When you make a weapon attack
+								against a creature, you can spend 1 focus point to attempt
+								to dizzy your opponent. On a hit, the creature suffers
+								normal damage and must make a Constitution saving
+								throw or suffer disadvantage on attacks until the end of
+								their next turn."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Disarming Attack",
+							"entries": [
+								"When you make a weapon attack
+								against a creature, you can spend 1 focus point to attempt
+								to shoot or knock an object from their hands. On a hit, the
+								creature suffers normal damage and must succeed on a
+								Strength saving throw or drop 1 held object of your choice
+								and have that object be pushed 10 feet away in the
+								direction of your attack."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Disengaging Attack",
+							"entries": [
+								"Immediately after taking the Attack
+								action on your turn, you can spend 1 focus point to take the
+								Disengage action as a bonus action."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Resorting Attack",
+							"entries": [
+								"If a creature misses you with a
+								weapon attack, you can spend 1 focus point and use your
+								reaction to make a weapon attack against the creature."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Piercing Shot",
+							"entries": [
+								"When you make a ranged weapon attack
+								against a creature, you can spend 1 focus point to attempt
+								to shoot through multiple opponents. On a hit, the creature
+								suffers normal damage and you make an attack roll with
+								disadvantage against every creature in a line directly
+								behind the target within your first range increment."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Steady Attack",
+							"entries": [
+								"When you make a weapon attack against
+								a creature, you can spend 1 focus point to gain advantage
+								on the attack roll."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Hunter Archetype",
+			"source": "heroeshandbook:hunter",
+			"className": "Hunter",
+			"classSource": "heroeshandbook:hunter",
+			"level": 3,
+			"entries": [
+				"At 3rd level, you choose to emulate the ideals and training
+				of a hunter archetype: Beast Master, Marksman or Survival,
+				each detailed at the end of the class description. Your
+				choice grants you features at 3rd level and again at 7th,
+				11th, and 15th level."
+			]
+		},
+		{
+			"name": "Animal Companion",
+			"source": "heroeshandbook:hunter",
+			"className": "Hunter",
+			"classSource": "heroeshandbook:hunter",
+			"level": 3,
+			"entries": [
+				"Beginning at 3rd level, you have strengthened your connection
+				with animals, allowing you to bond with a creature of
+				the natural world.
+				You gain a companion that accompanies you on your
+				adventures and is trained to fight alongside you. Choose a
+				beast that is no larger than Medium with a challenge rating
+				of 1/2 or lower. your animal companion gains all the
+				benefits of your Companion's bond ability. You can only
+				have one animal companion at a time.
+				If your animal companion dies, you can obtain another
+				one by spending 8 hours bonding with another animal that
+				isn't hostile to you, either the same type of beast as before
+				or a different one.",
+				"Companion's Bond",
+				"Your beast companion gains a variety of benefits once loyal.",
+				{
+					"type": "list",
+					"items": [
+						"The beast loses its Multiattack action, if it has one.",
+						"Your companion obeys your commands as best it can. It
+						rolls initiative like any other creature, but you determine
+						its actions, decisions, attitudes and so on. If you are
+						incapacitated or absent, the companion acts on its own.",
+						"Your beast companion has abilities and statistics
+						determined in part by your level. Using your proficiency
+						bonus rather than its own. In addition to the areas
+						where it normally uses its proficiency bonus, your
+						companion also adds its proficiency bonus to its AC and
+						to its damage rolls.",
+						"Your beast gains proficiency in two skills of your choice.
+						It also becomes proficient in all saving throws.",
+						"For each level above 3rd, your beast companion gains an
+						additional hit die and its maximum hit points increases
+						accordingly. This is retroactive for companions gained
+						at later levels.",
+						"Whenever you gain an Ability Score Improvement, your
+						companions abilities improve as well, applying all the
+						rules of increasing ability scores that applies to you.",
+						"Your companions alignment changes to sharing yours."
+					]
+				},
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "heroeshandbook:hunter",
+			"className": "Hunter",
+			"classSource": "heroeshandbook:hunter",
+			"level": 4,
+			"entries": [
+				"When you reach 4th, 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+			]
+		},
+		{
+			"name": "Extra Attack",
+			"source": "heroeshandbook:hunter",
+			"className": "Hunter",
+			"classSource": "heroeshandbook:hunter",
+			"level": 5,
+			"entries": [
+				"Beginning at 5th level, you can attack twice, instead of once, whenever you take the {@action Attack} action on your turn."
+			]
+		},
+		{
+			"name": "Focus Improvement",
+			"source": "heroeshandbook:hunter",
+			"className": "Hunter",
+			"classSource": "heroeshandbook:hunter",
+			"level": 6,
+			"entries": [
+				"At 6th level, you gain an additional focused attack. You can also replace one focused attack you
+				know with another from the list."
+			]
+		},
+		{
+			"name": "Hunter Archetype Feature",
+			"source": "heroeshandbook:hunter",
+			"className": "Hunter",
+			"classSource": "heroeshandbook:hunter",
+			"level": 7,
+			"entries": [
+				"At 7th level, you gain a feature from your Hunter Archetype."
+			]
+		},
+		{
+			"name": "Fleet of Foot",
+			"source": "heroeshandbook:hunter",
+			"className": "Hunter",
+			"classSource": "heroeshandbook:hunter",
+			"level": 8,
+			"entries": [
+				"Starting at 8th level, when you take the Dash action, you
+				can pass through any difficult terrain without requiring
+				extra movement.
+				Additionally, you are able to pass through
+				nonmagicalplants without being slowed by them or taking
+				damage from them if they have thorns, spines, or a similar
+				hazard."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "heroeshandbook:hunter",
+			"className": "Hunter",
+			"classSource": "heroeshandbook:hunter",
+			"level": 8,
+			"entries": [
+				"When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+			]
+		},
+		{
+			"name": "Know Your Prey",
+			"source": "heroeshandbook:hunter",
+			"className": "Hunter",
+			"classSource": "heroeshandbook:hunter",
+			"level": 9,
+			"entries": [
+				"At 9th level, you can glean intimate knowledge about the
+				capabilities of your marked target. As action you can learn
+				two of the following characteristics of your choice about
+				the target of your hunter's mark if it's within 120 feet.",
+				{
+					"type": "list",
+					"items": [
+						"Creature Type",
+						"Armor Class",
+						"Speed",
+						"Damage Vulnerabilities",
+						"Damage Resistances",
+						"Damage Immunities",
+						"Senses"
+					]
+				},
+				"Once you have gained knowledge of a creature, you can't
+				gain more knowledge of that type of creature for 24 hours."
+			]
+		},
+		{
+			"name": "Focus Improvement",
+			"source": "heroeshandbook:hunter",
+			"className": "Hunter",
+			"classSource": "heroeshandbook:hunter",
+			"level": 10,
+			"entries": [
+				"At 10th level, you gain an additional focused attack. You can also replace one focused attack you
+				know with another from the list."
+			]
+		},
+		{
+			"name": "Hunter Archetype Feature",
+			"source": "heroeshandbook:hunter",
+			"className": "Hunter",
+			"classSource": "heroeshandbook:hunter",
+			"level": 11,
+			"entries": [
+				"At 11th level, you gain a feature from your Hunter Archetype."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "heroeshandbook:hunter",
+			"className": "Hunter",
+			"classSource": "heroeshandbook:hunter",
+			"level": 12,
+			"entries": [
+				"When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+			]
+		},
+		{
+			"name": "Hide in Plain Sight",
+			"source": "heroeshandbook:hunter",
+			"className": "Hunter",
+			"classSource": "heroeshandbook:hunter",
+			"level": 13,
+			"entries": [
+				"Beginning at 13th level, you can use the Hide action as a
+				bonus action on your turn. Also, you can't be tracked by
+				non-magical means, unless you choose to leave a trail."
+			]
+		},
+		{
+			"name": "Focus Improvement",
+			"source": "heroeshandbook:hunter",
+			"className": "Hunter",
+			"classSource": "heroeshandbook:hunter",
+			"level": 14,
+			"entries": [
+				"At 14th level, you gain an additional focused attack. You can also replace one focused attack you
+				know with another from the list."
+			]
+		},
+		{
+			"name": "Hunter Archetype Feature",
+			"source": "heroeshandbook:hunter",
+			"className": "Hunter",
+			"classSource": "heroeshandbook:hunter",
+			"level": 15,
+			"entries": [
+				"At 15th level, you gain a feature from your Hunter Archetype."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "heroeshandbook:hunter",
+			"className": "Hunter",
+			"classSource": "heroeshandbook:hunter",
+			"level": 16,
+			"entries": [
+				"When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+			]
+		},
+		{
+			"name": "Honed Senses",
+			"source": "heroeshandbook:hunter",
+			"className": "Hunter",
+			"classSource": "heroeshandbook:hunter",
+			"level": 17,
+			"entries": [
+				"Upon reaching 17th level, you gain preternatural senses
+				that help you fight creatures you can't see. When you attack
+				a creature you can't see, your inability to see it doesn't
+				impose disadvantage on your attack rolls against it. You are
+				also aware of the location of any invisible creatures within
+				30 feet of you, provided that the creature isn't hidden from
+				you and you aren't blinded or deafened."
+			]
+		},
+		{
+			"name": "Focus Improvement",
+			"source": "heroeshandbook:hunter",
+			"className": "Hunter",
+			"classSource": "heroeshandbook:hunter",
+			"level": 18,
+			"entries": [
+				"At 18th level, you gain an additional focused attack. You can also replace one focused attack you
+				know with another from the list."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "heroeshandbook:hunter",
+			"className": "Hunter",
+			"classSource": "heroeshandbook:hunter",
+			"level": 19,
+			"entries": [
+				"When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+			]
+		},
+		{
+			"name": "Adrenaline Rush",
+			"source": "heroeshandbook:hunter",
+			"className": "Hunter",
+			"classSource": "heroeshandbook:hunter",
+			"level": 20,
+			"entries": [
+				"At 20th level, you can utilize your adrenaline to burst into a rush of action. At the end of your turn, if you have 5 focus available, you can choose to immediately take another turn; at the end of that turn, you lose all focus. Once you use this feature, you cannot use it again until you complete a long rest."
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Beast Master",
+			"source": "heroeshandbook:hunter",
+			"className": "Hunter",
+			"classSource": "heroeshandbook:hunter",
+			"subclassShortName": "Beast Master",
+			"subclassSource": "heroeshandbook:hunter",
+			"level": 3,
+			"entries": [
+				"Among the most gifted hunters, there are those who have
+				from birth felt a profound bond with the creatures of the
+				wild. These beast masters are drawn to the perilous primal
+				world, invigorated by its dangerous and untamed nature.
+				Primitive landscape becomes home. Ferocious predator
+				becomes kin.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Dire Tamer|Hunter|heroeshandbook:hunter|Beast Master|heroeshandbook:hunter|3"
+				}
+			]
+		},
+		{
+			"name": "Dire Tamer",
+			"entries": [
+				"Starting at 3rd level, your way with beasts are unmatched,
+				making you able to tame Large beasts with a challenge
+				rating of 1 or lower."
+			],
+			"source": "heroeshandbook:hunter",
+			"className": "Hunter",
+			"classSource": "heroeshandbook:hunter",
+			"subclassShortName": "Beast Master",
+			"subclassSource": "heroeshandbook:hunter",
+			"level": 3,
+			"header": 1
+		},
+		{
+			"name": "Kindred Spirit",
+			"source": "heroeshandbook:hunter",
+			"className": "Hunter",
+			"classSource": "heroeshandbook:hunter",
+			"subclassShortName": "Beast Master",
+			"subclassSource": "heroeshandbook:hunter",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"Beginning at 7th level, you and your animal companion
+				form a more potent fighting team. When you hit a creature
+				with a weapon attack on your turn, if your companion is
+				within range, it can use its reaction to make a melee attack
+				against the same target.",
+				"Additionally, you can use your reaction to warn your
+				companion when an attack roll is made against it, giving it
+				resistance to all damage dealt by the attack if it hits."
+			]
+		},
+		{
+			"name": "Aspect of the Wilds",
+			"source": "heroeshandbook:hunter",
+			"className": "Hunter",
+			"classSource": "heroeshandbook:hunter",
+			"subclassShortName": "Beast Master",
+			"subclassSource": "heroeshandbook:hunter",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"Starting at 11th level, your time spent around your animal
+				companion have begun influencing you, granting you one of
+				the following features of your choice.",
+				{
+					"type": "options",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Pack Tactics",
+							"entries": [
+							"You have advantage on an attack roll
+							against a creature if at least one of your allies is within 5
+							feet of the creature and the ally isn't incapacitated."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Pounce",
+							"entries": [
+							"If you move at least 20 feet straight toward a
+							creature and then hit with a melee weapon attack on the
+							same turn, that target must succeed on a Strength saving
+							throw or be knocked prone."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Rampage",
+							"entries": [
+							"When you reduce a creature to 0 hit points
+							with a weapon attack on your turn, you can use your bonus
+							action to move up to half your speed and make another
+							attack with the same weapon."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "One of the Pack",
+			"source": "heroeshandbook:hunter",
+			"className": "Hunter",
+			"classSource": "heroeshandbook:hunter",
+			"subclassShortName": "Beast Master",
+			"subclassSource": "heroeshandbook:hunter",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"At 15th level, the 'voice' of your companion helps you to
+				overcome grievous injuries and keep on fighting. When you
+				take damage that reduces you to 0 hit points and doesn't
+				kill you outright, your companion can use its reaction to
+				call out to you. If you are within range to hear its call, you
+				immediately gain hit points equal to your hunter level, and
+				regain your consciousness.
+				Once you (and your companion) uses this feature, you
+				can't use it again until you finish a long rest."
+			]
+		},
+		{
+			"name": "Marksman",
+			"source": "heroeshandbook:hunter",
+			"className": "Hunter",
+			"classSource": "heroeshandbook:hunter",
+			"subclassShortName": "Marksman",
+			"subclassSource": "heroeshandbook:hunter",
+			"level": 3,
+			"entries": [
+				"Marksmen shroud themselves in the perils of the untamed
+				wilds, perfecting the use of weapons that are deadliest
+				from great range. They have little interest in gaining the
+				loyalty of beasts. Instead, they blend into the surrounding
+				environment, surveying predators and delivering deadly
+				shots from great distances.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Careful Aim|Hunter|heroeshandbook:hunter|Marksman|heroeshandbook:hunter|3"
+				}
+			]
+		},
+		{
+			"name": "Careful Aim",
+			"source": "heroeshandbook:hunter",
+			"className": "Hunter",
+			"classSource": "heroeshandbook:hunter",
+			"subclassShortName": "Marksman",
+			"subclassSource": "heroeshandbook:hunter",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Starting at 3rd level, your aim becomes deadly. As a bonus
+				action on your turn, you can take careful aim at a creature
+				you can see that is within range of a ranged weapon you're
+				wielding. Until the end of your turn, your ranged attacks
+				with that weapon gain two benefits against the target.",
+				{
+					"type": "list",
+					"items": [
+						"The attack ignores half and three-quarters cover.",
+						"On a hit, the weapon deals additional damage to the
+						target equal to 2 + half your hunter level."
+					]
+				},
+				"You can use this feature three times. You regain expended
+				uses when you finish a short or long rest."
+			]
+		},
+		{
+			"name": "Aspect of the Eagle",
+			"source": "heroeshandbook:hunter",
+			"className": "Hunter",
+			"classSource": "heroeshandbook:hunter",
+			"subclassShortName": "Marksman",
+			"subclassSource": "heroeshandbook:hunter",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"Beginning at 7th level, you can take Search action as a
+				bonus action. You also gain proficiency in the Perception,
+				Investigation, or Survival skill (choose one). If you already
+				have proficiency in all three, you gain expertise in one of
+				them of your choice."
+			]
+		},
+		{
+			"name": "Multiattack",
+			"source": "heroeshandbook:hunter",
+			"className": "Hunter",
+			"classSource": "heroeshandbook:hunter",
+			"subclassShortName": "Marksman",
+			"subclassSource": "heroeshandbook:hunter",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"Upon reaching 11th level, you gain one of the following
+				features of your choice.",
+				{
+					"type": "options",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Pack Tactics",
+							"entries": [
+							"You have advantage on an attack roll
+							against a creature if at least one of your allies is within 5
+							feet of the creature and the ally isn't incapacitated."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Pounce",
+							"entries": [
+							"If you move at least 20 feet straight toward a
+							creature and then hit with a melee weapon attack on the
+							same turn, that target must succeed on a Strength saving
+							throw or be knocked prone."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Rampage",
+							"entries": [
+							"When you reduce a creature to 0 hit points
+							with a weapon attack on your turn, you can use your bonus
+							action to move up to half your speed and make another
+							attack with the same weapon."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Marksman's Focus",
+			"source": "heroeshandbook:hunter",
+			"className": "Hunter",
+			"classSource": "heroeshandbook:hunter",
+			"subclassShortName": "Marksman",
+			"subclassSource": "heroeshandbook:hunter",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"At 15th level, when you roll for initiative and have no uses
+				of careful aim remaining, you regain one use."
+			]
+		},
+		{
+			"name": "Survival",
+			"source": "heroeshandbook:hunter",
+			"className": "Hunter",
+			"classSource": "heroeshandbook:hunter",
+			"subclassShortName": "Survival",
+			"subclassSource": "heroeshandbook:hunter",
+			"level": 3,
+			"entries": [
+				"All hunters feel a calling to the wild, but some serve as a
+				reflection of its brutality. To them, the hunt is defined by
+				unrelenting ferocity. Weapons of great range are thrown
+				away for close-quarters combat.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Predator|Hunter|heroeshandbook:hunter|Survival|heroeshandbook:hunter|3"
+				}
+			]
+		},
+		{
+			"name": "Predator",
+			"source": "heroeshandbook:hunter",
+			"className": "Hunter",
+			"classSource": "heroeshandbook:hunter",
+			"subclassShortName": "Survival",
+			"subclassSource": "heroeshandbook:hunter",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Starting at 3rd level, at the start of your first turn of each
+				combat, your walking speed increases by 10 feet, which
+				lasts until the end of that turn. If you take the Attack action
+				on that turn, you can make one additional weapon attack as
+				part of that action. If the attack hits, the target takes an
+				extra 1d8 damage of the weapon's damage type.
+				Additionally, you add your Wisdom modifier to your
+				initiative rolls."
+			]
+		},
+		{
+			"name": "Camouflage",
+			"source": "heroeshandbook:hunter",
+			"className": "Hunter",
+			"classSource": "heroeshandbook:hunter",
+			"subclassShortName": "Survival",
+			"subclassSource": "heroeshandbook:hunter",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"Beginning at 7th level, you gain the ability to cast the pass
+				without trace spell without providing material components,
+				but only as a ritual. You must have access to fresh mud, dirt,
+				plants, soot, or other natural occurring materials for you to
+				be able to do so."
+			]
+		},
+		{
+			"name": "Marked Counter",
+			"source": "heroeshandbook:hunter",
+			"className": "Hunter",
+			"classSource": "heroeshandbook:hunter",
+			"subclassShortName": "Survival",
+			"subclassSource": "heroeshandbook:hunter",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"Upon reaching 11th level, you gain the ability to counterattack
+				when your marked target tries to sabotage you. If the
+				target of your Hunter's Mark forces you to make a saving
+				throw, you can use your reaction to make a weapon attack
+				against the quarry. You make this attack before making the
+				saving throw. If your attack hits, you gain advantage on your
+				saving throw, in addition to the attack's normal effects."
+			]
+		},
+		{
+			"name": "Aspect of the Beast",
+			"source": "heroeshandbook:hunter",
+			"className": "Hunter",
+			"classSource": "heroeshandbook:hunter",
+			"subclassShortName": "Survival",
+			"subclassSource": "heroeshandbook:hunter",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"At 15th level, you take on an aspect of a one of the following
+				beasts of your choice.",
+				{
+					"type": "options",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Cheetah",
+							"entries": [
+							"When you are subjected to an effect that
+							allows you to make a Dexterity saving throw to take only
+							half damage, you instead take no damage if you succeed on
+							the saving throw, and only half damage if you fail."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Monkey",
+							"entries": [
+							"When a creature misses you with a melee
+							attack, you can use your reaction to force that creature to
+							repeat the same attack against another creature (other
+							than itself) of your choice."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Turtle",
+							"entries": [
+							"When an attacker that you can see hits you with
+							an attack, you can use your reaction to halve the attack's
+							damage against you."
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"subclass": [
+		{
+			"name": "Beast Master",
+			"shortName": "Beast Master",
+			"source": "heroeshandbook:hunter",
+			"subclassFeatures": [
+				"Dire Tamer|Hunter|heroeshandbook:hunter|Beast Master|heroeshandbook:hunter|3",
+				"Kindred Spirit|Hunter|heroeshandbook:hunter|Beast Master|heroeshandbook:hunter|7",
+				"Aspect of the Wilds|Hunter|heroeshandbook:hunter|Beast Master|heroeshandbook:hunter|11",
+				"One of the Pack|Hunter|heroeshandbook:hunter|Beast Master|heroeshandbook:hunter|15"
+			],
+			"className": "Hunter",
+			"classSource": "heroeshandbook:hunter"
+		},
+		{
+			"name": "Marksman",
+			"shortName": "Marksman",
+			"source": "heroeshandbook:hunter",
+			"subclassFeatures": [
+				"Careful Aim|Hunter|heroeshandbook:hunter|Marksman|heroeshandbook:hunter|3",
+				"Aspect of the Eagle|Hunter|heroeshandbook:hunter|Marksman|heroeshandbook:hunter|7",
+				"Multiattack|Hunter|heroeshandbook:hunter|Marksman|heroeshandbook:hunter|11",
+				"Marksman's Focus|Hunter|heroeshandbook:hunter|Marksman|heroeshandbook:hunter|15"
+			],
+			"className": "Hunter",
+			"classSource": "heroeshandbook:hunter"
+		},
+		{
+			"name": "Survival",
+			"shortName": "Survival",
+			"source": "heroeshandbook:hunter",
+			"subclassFeatures": [
+				"Predator|Hunter|heroeshandbook:hunter|Survival|heroeshandbook:hunter|3",
+				"Camouflage|Hunter|heroeshandbook:hunter|Survival|heroeshandbook:hunter|7",
+				"Marked Counter|Hunter|heroeshandbook:hunter|Survival|heroeshandbook:hunter|11",
+				"Aspect of the Beast|Hunter|heroeshandbook:hunter|Survival|heroeshandbook:hunter|15"
+			],
+			"className": "Hunter",
+			"classSource": "heroeshandbook:hunter"
+		}
+	]
+}
