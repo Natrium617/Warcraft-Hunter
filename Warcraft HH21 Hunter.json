@@ -1065,7 +1065,7 @@
 		]
 	}],
 	"subclass": [{
-			"name": "Beast Master",
+			"name": "Archetype Beast Master",
 			"shortName": "Beast Master",
 			"source": "heroeshandbook:hunter",
 			"subclassFeatures": [
@@ -1078,7 +1078,7 @@
 			"classSource": "heroeshandbook:hunter"
 		},
 		{
-			"name": "Marksman",
+			"name": "Archetype Marksman",
 			"shortName": "Marksman",
 			"source": "heroeshandbook:hunter",
 			"subclassFeatures": [
@@ -1091,7 +1091,7 @@
 			"classSource": "heroeshandbook:hunter"
 		},
 		{
-			"name": "Survival",
+			"name": "Archetype Survival",
 			"shortName": "Survival",
 			"source": "heroeshandbook:hunter",
 			"subclassFeatures": [
