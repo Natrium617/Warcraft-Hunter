@@ -1,9 +1,9 @@
 {
 	"_meta": {
 		"sources": [{
-			"json": "heroeshandbook:hunter",
+			"json": "HH21Hunter",
 			"full": "Warcraft Hunter HH2.1",
-			"abbreviation": "Hunter",
+			"abbreviation": "HH21Hunter",
 			"authors": [
 				"u/Jihia, u/TangerineThunder"
 			],
@@ -18,7 +18,7 @@
 	},
 	"class": [{
 		"name": "Hunter",
-		"source": "heroeshandbook:hunter",
+		"source": "HH21Hunter",
 		"hd": {
 			"number": 1,
 			"faces": 10
@@ -101,7 +101,7 @@
 			]
 		},
 		"fluff": [{
-			"source": "heroeshandbook:hunter",
+			"source": "HH21Hunter",
 			"page": 1,
 			"entries": [{
 					"type": "quote",
@@ -368,49 +368,49 @@
 			}
 		],
 		"classFeatures": [
-			"Animal Empathy|Hunter|heroeshandbook:hunter|1",
-			"Natural Explorer|Hunter|heroeshandbook:hunter|1",
-			"Hunter's Mark|Hunter|heroeshandbook:hunter|2",
-			"Focus (2 Attacks)|Hunter|heroeshandbook:hunter|2",
+			"Animal Empathy|Hunter|HH21Hunter|1",
+			"Natural Explorer|Hunter|HH21Hunter|1",
+			"Hunter's Mark|Hunter|HH21Hunter|2",
+			"Focus (2 Attacks)|Hunter|HH21Hunter|2",
 			{
-				"classFeature": "Hunter Archetype|Hunter|heroeshandbook:hunter|3",
+				"classFeature": "Hunter Archetype|Hunter|HH21Hunter|3",
 				"gainSubclassFeature": true
 			},
-			"Ability Score Improvement|Hunter|heroeshandbook:hunter|4",
-			"Extra Attack|Hunter|heroeshandbook:hunter|5",
-			"Focus (3 Attacks)|Hunter|heroeshandbook:hunter|6",
+			"Ability Score Improvement|Hunter|HH21Hunter|4",
+			"Extra Attack|Hunter|HH21Hunter|5",
+			"Focus (3 Attacks)|Hunter|HH21Hunter|6",
 			{
-				"classFeature": "Hunter Archetype Feature|Hunter|heroeshandbook:hunter|7",
+				"classFeature": "Hunter Archetype Feature|Hunter|HH21Hunter|7",
 				"gainSubclassFeature": true
 			},
-			"Ability Score Improvement|Hunter|heroeshandbook:hunter|8",
-			"Fleet of Foot|Hunter|heroeshandbook:hunter|8",
-			"Know Your Prey|Hunter|heroeshandbook:hunter|9",
-			"Focus (4 Attacks)|Hunter|heroeshandbook:hunter|10",
+			"Ability Score Improvement|Hunter|HH21Hunter|8",
+			"Fleet of Foot|Hunter|HH21Hunter|8",
+			"Know Your Prey|Hunter|HH21Hunter|9",
+			"Focus (4 Attacks)|Hunter|HH21Hunter|10",
 			{
-				"classFeature": "Hunter Archetype Feature|Hunter|heroeshandbook:hunter|11",
+				"classFeature": "Hunter Archetype Feature|Hunter|HH21Hunter|11",
 				"gainSubclassFeature": true
 			},
-			"Ability Score Improvement|Hunter|heroeshandbook:hunter|12",
-			"Hide in Plain Sight|Hunter|heroeshandbook:hunter|13",
-			"Focus (5 Attacks)|Hunter|heroeshandbook:hunter|14",
+			"Ability Score Improvement|Hunter|HH21Hunter|12",
+			"Hide in Plain Sight|Hunter|HH21Hunter|13",
+			"Focus (5 Attacks)|Hunter|HH21Hunter|14",
 			{
-				"classFeature": "Hunter Archetype Feature|Hunter|heroeshandbook:hunter|15",
+				"classFeature": "Hunter Archetype Feature|Hunter|HH21Hunter|15",
 				"gainSubclassFeature": true
 			},
-			"Ability Score Improvement|Hunter|heroeshandbook:hunter|16",
-			"Honed Senses|Hunter|heroeshandbook:hunter|17",
-			"Focus (6 Attacks)|Hunter|heroeshandbook:hunter|18",
-			"Ability Score Improvement|Hunter|heroeshandbook:hunter|19",
-			"Aspect of the Wild|Hunter|heroeshandbook:hunter|20"
+			"Ability Score Improvement|Hunter|HH21Hunter|16",
+			"Honed Senses|Hunter|HH21Hunter|17",
+			"Focus (6 Attacks)|Hunter|HH21Hunter|18",
+			"Ability Score Improvement|Hunter|HH21Hunter|19",
+			"Aspect of the Wild|Hunter|HH21Hunter|20"
 		],
 		"subclassTitle": "Hunter Archetype"
 	}],
 	"classFeature": [{
 			"name": "Animal Empathy",
-			"source": "heroeshandbook:hunter",
+			"source": "HH21Hunter",
 			"className": "Hunter",
-			"classSource": "heroeshandbook:hunter",
+			"classSource": "HH21Hunter",
 			"level": 1,
 			"entries": [
 				"Your mastery of hunter lore allows you to establish a link to beasts and to the land around you.",
@@ -419,9 +419,9 @@
 		},
 		{
 			"name": "Natural Explorer",
-			"source": "heroeshandbook:hunter",
+			"source": "HH21Hunter",
 			"className": "Hunter",
-			"classSource": "heroeshandbook:hunter",
+			"classSource": "HH21Hunter",
 			"level": 1,
 			"entries": [
 				"You are familiar with natural environments and are adept at traveling and surviving in such regions.This grants you the following benefits: ",
@@ -448,9 +448,9 @@
 			]
 		}, {
 			"name": "Fighting Style",
-			"source": "heroeshandbook:hunter",
+			"source": "HH21Hunter",
 			"className": "Hunter",
-			"classSource": "heroeshandbook:hunter",
+			"classSource": "HH21Hunter",
 			"level": 2,
 			"entries": [
 				"At 2nd level, you adopt a particular style of fighting as your specialty. Choose one of the following options. You can't take the same Fighting Style option more than once, even if you get to choose again.",
@@ -489,9 +489,9 @@
 			]
 		}, {
 			"name": "Focus",
-			"source": "heroeshandbook:hunter",
+			"source": "HH21Hunter",
 			"className": "Hunter",
-			"classSource": "heroeshandbook:hunter",
+			"classSource": "HH21Hunter",
 			"level": 2,
 			"entries": [
 				"Starting at 2nd level, you learn to enter a heightened state of focus in combat. Your access to this focus is represented by a number of focus points. Your hunter level determines the number of focus points you have, as shown in the Focus Points column of the Hunter table.",
@@ -575,18 +575,18 @@
 			]
 		}, {
 			"name": "Hunter Archetype",
-			"source": "heroeshandbook:hunter",
+			"source": "HH21Hunter",
 			"className": "Hunter",
-			"classSource": "heroeshandbook:hunter",
+			"classSource": "HH21Hunter",
 			"level": 3,
 			"entries": [
 				"At 3rd level, you choose to emulate the ideals and training of a hunter archetype: Beast Master, Marksman or Survival, each detailed at the end of the class description. Your choice grants you features at 3 rd level and again at 7 th, 11 th, and 15 th level."
 			]
 		}, {
 			"name": "Animal Companion",
-			"source": "heroeshandbook:hunter",
+			"source": "HH21Hunter",
 			"className": "Hunter",
-			"classSource": "heroeshandbook:hunter",
+			"classSource": "HH21Hunter",
 			"level": 3,
 			"entries": [
 				"Beginning at 3rd level, you have strengthened your connection with animals, allowing you to bond with a creature of the natural world. You gain a companion that accompanies you on your adventures and is trained to fight alongside you. Choose a beast that is no larger than Medium with a challenge rating of 1 / 2 or lower.your animal companion gains all the benefits of your Companion 's bond ability. You can only have one animal companion at a time. If your animal companion dies, you can obtain another one by spending 8 hours bonding with another animal that isn't hostile to you, either the same type of beast as before or a different one.",
@@ -607,9 +607,9 @@
 			]
 		}, {
 			"name": "Ability Score Improvement",
-			"source": "heroeshandbook:hunter",
+			"source": "HH21Hunter",
 			"className": "Hunter",
-			"classSource": "heroeshandbook:hunter",
+			"classSource": "HH21Hunter",
 			"level": 4,
 			"entries": [
 				"When you reach 4th, 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
@@ -617,45 +617,45 @@
 			]
 		}, {
 			"name": "Extra Attack",
-			"source": "heroeshandbook:hunter",
+			"source": "HH21Hunter",
 			"className": "Hunter",
-			"classSource": "heroeshandbook:hunter",
+			"classSource": "HH21Hunter",
 			"level": 5,
 			"entries": [
 				"Beginning at 5th level, you can attack twice, instead of once, whenever you take the {@action Attack} action on your turn."
 			]
 		}, {
 			"name": "Focus Improvement",
-			"source": "heroeshandbook:hunter",
+			"source": "HH21Hunter",
 			"className": "Hunter",
-			"classSource": "heroeshandbook:hunter",
+			"classSource": "HH21Hunter",
 			"level": 6,
 			"entries": [
 				"At 6th level, you gain an additional focused attack. You can also replace one focused attack you know with another from the list."
 			]
 		}, {
 			"name": "Hunter Archetype Feature",
-			"source": "heroeshandbook:hunter",
+			"source": "HH21Hunter",
 			"className": "Hunter",
-			"classSource": "heroeshandbook:hunter",
+			"classSource": "HH21Hunter",
 			"level": 7,
 			"entries": [
 				"At 7th level, you gain a feature from your Hunter Archetype."
 			]
 		}, {
 			"name": "Fleet of Foot",
-			"source": "heroeshandbook:hunter",
+			"source": "HH21Hunter",
 			"className": "Hunter",
-			"classSource": "heroeshandbook:hunter",
+			"classSource": "HH21Hunter",
 			"level": 8,
 			"entries": [
 				"Starting at 8th level, when you take the Dash action, you can pass through any difficult terrain without requiring extra movement. Additionally, you are able to pass through nonmagicalplants without being slowed by them or taking damage from them if they have thorns, spines, or a similar hazard."
 			]
 		}, {
 			"name": "Ability Score Improvement",
-			"source": "heroeshandbook:hunter",
+			"source": "HH21Hunter",
 			"className": "Hunter",
-			"classSource": "heroeshandbook:hunter",
+			"classSource": "HH21Hunter",
 			"level": 8,
 			"entries": [
 				"When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
@@ -663,9 +663,9 @@
 			]
 		}, {
 			"name": "Know Your Prey",
-			"source": "heroeshandbook:hunter",
+			"source": "HH21Hunter",
 			"className": "Hunter",
-			"classSource": "heroeshandbook:hunter",
+			"classSource": "HH21Hunter",
 			"level": 9,
 			"entries": [
 				"At 9th level, you can glean intimate knowledge about the capabilities of your marked target.As action you can learn two of the following characteristics of your choice about the target of your hunter 's mark if it's within 120 feet.",
@@ -685,27 +685,27 @@
 			]
 		}, {
 			"name": "Focus Improvement",
-			"source": "heroeshandbook:hunter",
+			"source": "HH21Hunter",
 			"className": "Hunter",
-			"classSource": "heroeshandbook:hunter",
+			"classSource": "HH21Hunter",
 			"level": 10,
 			"entries": [
 				"At 10th level, you gain an additional focused attack. You can also replace one focused attack you know with another from the list."
 			]
 		}, {
 			"name": "Hunter Archetype Feature",
-			"source": "heroeshandbook:hunter",
+			"source": "HH21Hunter",
 			"className": "Hunter",
-			"classSource": "heroeshandbook:hunter",
+			"classSource": "HH21Hunter",
 			"level": 11,
 			"entries": [
 				"At 11th level, you gain a feature from your Hunter Archetype."
 			]
 		}, {
 			"name": "Ability Score Improvement",
-			"source": "heroeshandbook:hunter",
+			"source": "HH21Hunter",
 			"className": "Hunter",
-			"classSource": "heroeshandbook:hunter",
+			"classSource": "HH21Hunter",
 			"level": 12,
 			"entries": [
 				"When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
@@ -713,36 +713,36 @@
 			]
 		}, {
 			"name": "Hide in Plain Sight",
-			"source": "heroeshandbook:hunter",
+			"source": "HH21Hunter",
 			"className": "Hunter",
-			"classSource": "heroeshandbook:hunter",
+			"classSource": "HH21Hunter",
 			"level": 13,
 			"entries": [
 				"Beginning at 13th level, you can use the Hide action as a bonus action on your turn. Also, you can't be tracked by non - magical means, unless you choose to leave a trail."
 			]
 		}, {
 			"name": "Focus Improvement",
-			"source": "heroeshandbook:hunter",
+			"source": "HH21Hunter",
 			"className": "Hunter",
-			"classSource": "heroeshandbook:hunter",
+			"classSource": "HH21Hunter",
 			"level": 14,
 			"entries": [
 				"At 14th level, you gain an additional focused attack. You can also replace one focused attack you know with another from the list."
 			]
 		}, {
 			"name": "Hunter Archetype Feature",
-			"source": "heroeshandbook:hunter",
+			"source": "HH21Hunter",
 			"className": "Hunter",
-			"classSource": "heroeshandbook:hunter",
+			"classSource": "HH21Hunter",
 			"level": 15,
 			"entries": [
 				"At 15th level, you gain a feature from your Hunter Archetype."
 			]
 		}, {
 			"name": "Ability Score Improvement",
-			"source": "heroeshandbook:hunter",
+			"source": "HH21Hunter",
 			"className": "Hunter",
-			"classSource": "heroeshandbook:hunter",
+			"classSource": "HH21Hunter",
 			"level": 16,
 			"entries": [
 				"When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
@@ -750,27 +750,27 @@
 			]
 		}, {
 			"name": "Honed Senses",
-			"source": "heroeshandbook:hunter",
+			"source": "HH21Hunter",
 			"className": "Hunter",
-			"classSource": "heroeshandbook:hunter",
+			"classSource": "HH21Hunter",
 			"level": 17,
 			"entries": [
 				"Upon reaching 17th level, you gain preternatural senses that help you fight creatures you can't see. When you attack a creature you can 't see, your inability to see it doesn't impose disadvantage on your attack rolls against it.You are also aware of the location of any invisible creatures within 30 feet of you, provided that the creature isn 't hidden from you and you aren 't blinded or deafened."
 			]
 		}, {
 			"name": "Focus Improvement",
-			"source": "heroeshandbook:hunter",
+			"source": "HH21Hunter",
 			"className": "Hunter",
-			"classSource": "heroeshandbook:hunter",
+			"classSource": "HH21Hunter",
 			"level": 18,
 			"entries": [
 				"At 18th level, you gain an additional focused attack. You can also replace one focused attack you know with another from the list."
 			]
 		}, {
 			"name": "Ability Score Improvement",
-			"source": "heroeshandbook:hunter",
+			"source": "HH21Hunter",
 			"className": "Hunter",
-			"classSource": "heroeshandbook:hunter",
+			"classSource": "HH21Hunter",
 			"level": 19,
 			"entries": [
 				"When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
@@ -778,9 +778,9 @@
 			]
 		}, {
 			"name": "Adrenaline Rush",
-			"source": "heroeshandbook:hunter",
+			"source": "HH21Hunter",
 			"className": "Hunter",
-			"classSource": "heroeshandbook:hunter",
+			"classSource": "HH21Hunter",
 			"level": 20,
 			"entries": [
 				"At 20th level, you can utilize your adrenaline to burst into a rush of action. At the end of your turn, if you have 5 focus available, you can choose to immediately take another turn; at the end of that turn, you lose all focus. Once you use this feature, you cannot use it again until you complete a long rest."
@@ -789,17 +789,17 @@
 	],
 	"subclassFeature": [{
 		"name": "Beast Master",
-		"source": "heroeshandbook:hunter",
+		"source": "HH21Hunter",
 		"className": "Hunter",
-		"classSource": "heroeshandbook:hunter",
+		"classSource": "HH21Hunter",
 		"subclassShortName": "Beast Master",
-		"subclassSource": "heroeshandbook:hunter",
+		"subclassSource": "HH21Hunter",
 		"level": 3,
 		"entries": [
 			"Among the most gifted hunters, there are those who have from birth felt a profound bond with the creatures of the wild.These beast masters are drawn to the perilous primal world, invigorated by its dangerous and untamed nature. Primitive landscape becomes home.Ferocious predator becomes kin.",
 			{
 				"type": "refSubclassFeature",
-				"subclassFeature": "Dire Tamer|Hunter|heroeshandbook:hunter|Beast Master|heroeshandbook:hunter|3"
+				"subclassFeature": "Dire Tamer|Hunter|HH21Hunter|Beast Master|HH21Hunter|3"
 			}
 		]
 	}, {
@@ -807,20 +807,20 @@
 		"entries": [
 			"Starting at 3rd level, your way with beasts are unmatched, making you able to tame Large beasts with a challenge rating of 1 or lower."
 		],
-		"source": "heroeshandbook:hunter",
+		"source": "HH21Hunter",
 		"className": "Hunter",
-		"classSource": "heroeshandbook:hunter",
+		"classSource": "HH21Hunter",
 		"subclassShortName": "Beast Master",
-		"subclassSource": "heroeshandbook:hunter",
+		"subclassSource": "HH21Hunter",
 		"level": 3,
 		"header": 1
 	}, {
 		"name": "Kindred Spirit",
-		"source": "heroeshandbook:hunter",
+		"source": "HH21Hunter",
 		"className": "Hunter",
-		"classSource": "heroeshandbook:hunter",
+		"classSource": "HH21Hunter",
 		"subclassShortName": "Beast Master",
-		"subclassSource": "heroeshandbook:hunter",
+		"subclassSource": "HH21Hunter",
 		"level": 7,
 		"header": 2,
 		"entries": [
@@ -829,11 +829,11 @@
 		]
 	}, {
 		"name": "Aspect of the Wilds",
-		"source": "heroeshandbook:hunter",
+		"source": "HH21Hunter",
 		"className": "Hunter",
-		"classSource": "heroeshandbook:hunter",
+		"classSource": "HH21Hunter",
 		"subclassShortName": "Beast Master",
-		"subclassSource": "heroeshandbook:hunter",
+		"subclassSource": "HH21Hunter",
 		"level": 11,
 		"header": 2,
 		"entries": [
@@ -866,11 +866,11 @@
 		]
 	}, {
 		"name": "One of the Pack",
-		"source": "heroeshandbook:hunter",
+		"source": "HH21Hunter",
 		"className": "Hunter",
-		"classSource": "heroeshandbook:hunter",
+		"classSource": "HH21Hunter",
 		"subclassShortName": "Beast Master",
-		"subclassSource": "heroeshandbook:hunter",
+		"subclassSource": "HH21Hunter",
 		"level": 15,
 		"header": 2,
 		"entries": [
@@ -878,26 +878,26 @@
 		]
 	}, {
 		"name": "Marksman",
-		"source": "heroeshandbook:hunter",
+		"source": "HH21Hunter",
 		"className": "Hunter",
-		"classSource": "heroeshandbook:hunter",
+		"classSource": "HH21Hunter",
 		"subclassShortName": "Marksman",
-		"subclassSource": "heroeshandbook:hunter",
+		"subclassSource": "HH21Hunter",
 		"level": 3,
 		"entries": [
 			"Marksmen shroud themselves in the perils of the untamed wilds, perfecting the use of weapons that are deadliest from great range.They have little interest in gaining the loyalty of beasts.Instead, they blend into the surrounding environment, surveying predators and delivering deadly shots from great distances.",
 			{
 				"type": "refSubclassFeature",
-				"subclassFeature": "Careful Aim|Hunter|heroeshandbook:hunter|Marksman|heroeshandbook:hunter|3"
+				"subclassFeature": "Careful Aim|Hunter|HH21Hunter|Marksman|HH21Hunter|3"
 			}
 		]
 	}, {
 		"name": "Careful Aim",
-		"source": "heroeshandbook:hunter",
+		"source": "HH21Hunter",
 		"className": "Hunter",
-		"classSource": "heroeshandbook:hunter",
+		"classSource": "HH21Hunter",
 		"subclassShortName": "Marksman",
-		"subclassSource": "heroeshandbook:hunter",
+		"subclassSource": "HH21Hunter",
 		"level": 3,
 		"header": 1,
 		"entries": [
@@ -913,11 +913,11 @@
 		]
 	}, {
 		"name": "Aspect of the Eagle",
-		"source": "heroeshandbook:hunter",
+		"source": "HH21Hunter",
 		"className": "Hunter",
-		"classSource": "heroeshandbook:hunter",
+		"classSource": "HH21Hunter",
 		"subclassShortName": "Marksman",
-		"subclassSource": "heroeshandbook:hunter",
+		"subclassSource": "HH21Hunter",
 		"level": 7,
 		"header": 2,
 		"entries": [
@@ -925,11 +925,11 @@
 		]
 	}, {
 		"name": "Multiattack",
-		"source": "heroeshandbook:hunter",
+		"source": "HH21Hunter",
 		"className": "Hunter",
-		"classSource": "heroeshandbook:hunter",
+		"classSource": "HH21Hunter",
 		"subclassShortName": "Marksman",
-		"subclassSource": "heroeshandbook:hunter",
+		"subclassSource": "HH21Hunter",
 		"level": 11,
 		"header": 2,
 		"entries": [
@@ -962,11 +962,11 @@
 		]
 	}, {
 		"name": "Marksman's Focus",
-		"source": "heroeshandbook:hunter",
+		"source": "HH21Hunter",
 		"className": "Hunter",
-		"classSource": "heroeshandbook:hunter",
+		"classSource": "HH21Hunter",
 		"subclassShortName": "Marksman",
-		"subclassSource": "heroeshandbook:hunter",
+		"subclassSource": "HH21Hunter",
 		"level": 15,
 		"header": 2,
 		"entries": [
@@ -974,26 +974,26 @@
 		]
 	}, {
 		"name": "Survival",
-		"source": "heroeshandbook:hunter",
+		"source": "HH21Hunter",
 		"className": "Hunter",
-		"classSource": "heroeshandbook:hunter",
+		"classSource": "HH21Hunter",
 		"subclassShortName": "Survival",
-		"subclassSource": "heroeshandbook:hunter",
+		"subclassSource": "HH21Hunter",
 		"level": 3,
 		"entries": [
 			"All hunters feel a calling to the wild, but some serve as a reflection of its brutality.To them, the hunt is defined by unrelenting ferocity. Weapons of great range are thrown away for close - quarters combat.",
 			{
 				"type": "refSubclassFeature",
-				"subclassFeature": "Predator|Hunter|heroeshandbook:hunter|Survival|heroeshandbook:hunter|3"
+				"subclassFeature": "Predator|Hunter|HH21Hunter|Survival|HH21Hunter|3"
 			}
 		]
 	}, {
 		"name": "Predator",
-		"source": "heroeshandbook:hunter",
+		"source": "HH21Hunter",
 		"className": "Hunter",
-		"classSource": "heroeshandbook:hunter",
+		"classSource": "HH21Hunter",
 		"subclassShortName": "Survival",
-		"subclassSource": "heroeshandbook:hunter",
+		"subclassSource": "HH21Hunter",
 		"level": 3,
 		"header": 1,
 		"entries": [
@@ -1001,11 +1001,11 @@
 		]
 	}, {
 		"name": "Camouflage",
-		"source": "heroeshandbook:hunter",
+		"source": "HH21Hunter",
 		"className": "Hunter",
-		"classSource": "heroeshandbook:hunter",
+		"classSource": "HH21Hunter",
 		"subclassShortName": "Survival",
-		"subclassSource": "heroeshandbook:hunter",
+		"subclassSource": "HH21Hunter",
 		"level": 7,
 		"header": 2,
 		"entries": [
@@ -1013,11 +1013,11 @@
 		]
 	}, {
 		"name": "Marked Counter",
-		"source": "heroeshandbook:hunter",
+		"source": "HH21Hunter",
 		"className": "Hunter",
-		"classSource": "heroeshandbook:hunter",
+		"classSource": "HH21Hunter",
 		"subclassShortName": "Survival",
-		"subclassSource": "heroeshandbook:hunter",
+		"subclassSource": "HH21Hunter",
 		"level": 11,
 		"header": 2,
 		"entries": [
@@ -1025,11 +1025,11 @@
 		]
 	}, {
 		"name": "Aspect of the Beast",
-		"source": "heroeshandbook:hunter",
+		"source": "HH21Hunter",
 		"className": "Hunter",
-		"classSource": "heroeshandbook:hunter",
+		"classSource": "HH21Hunter",
 		"subclassShortName": "Survival",
-		"subclassSource": "heroeshandbook:hunter",
+		"subclassSource": "HH21Hunter",
 		"level": 15,
 		"header": 2,
 		"entries": [
@@ -1063,42 +1063,42 @@
 	}],
 	"subclass": [{
 			"name": "Archetype Beast Master",
-			"shortName": "Beast Master",
-			"source": "heroeshandbook:hunter",
+			"source": "HH21Hunter",
 			"subclassFeatures": [
-				"Dire Tamer|Hunter|heroeshandbook:hunter|Beast Master|heroeshandbook:hunter|3",
-				"Kindred Spirit|Hunter|heroeshandbook:hunter|Beast Master|heroeshandbook:hunter|7",
-				"Aspect of the Wilds|Hunter|heroeshandbook:hunter|Beast Master|heroeshandbook:hunter|11",
-				"One of the Pack|Hunter|heroeshandbook:hunter|Beast Master|heroeshandbook:hunter|15"
+				"Dire Tamer|Hunter|HH21Hunter|Beast Master|HH21Hunter|3",
+				"Kindred Spirit|Hunter|HH21Hunter|Beast Master|HH21Hunter|7",
+				"Aspect of the Wilds|Hunter|HH21Hunter|Beast Master|HH21Hunter|11",
+				"One of the Pack|Hunter|HH21Hunter|Beast Master|HH21Hunter|15"
 			],
+			"shortName": "Beast Master",
 			"className": "Hunter",
-			"classSource": "heroeshandbook:hunter"
+			"classSource": "HH21Hunter"
 		},
 		{
 			"name": "Archetype Marksman",
-			"shortName": "Marksman",
-			"source": "heroeshandbook:hunter",
+			"source": "HH21Hunter",
 			"subclassFeatures": [
-				"Careful Aim|Hunter|heroeshandbook:hunter|Marksman|heroeshandbook:hunter|3",
-				"Aspect of the Eagle|Hunter|heroeshandbook:hunter|Marksman|heroeshandbook:hunter|7",
-				"Multiattack|Hunter|heroeshandbook:hunter|Marksman|heroeshandbook:hunter|11",
-				"Marksman's Focus|Hunter|heroeshandbook:hunter|Marksman|heroeshandbook:hunter|15"
+				"Careful Aim|Hunter|HH21Hunter|Marksman|HH21Hunter|3",
+				"Aspect of the Eagle|Hunter|HH21Hunter|Marksman|HH21Hunter|7",
+				"Multiattack|Hunter|HH21Hunter|Marksman|HH21Hunter|11",
+				"Marksman's Focus|Hunter|HH21Hunter|Marksman|HH21Hunter|15"
 			],
+			"shortName": "Marksman",
 			"className": "Hunter",
-			"classSource": "heroeshandbook:hunter"
+			"classSource": "HH21Hunter"
 		},
 		{
 			"name": "Archetype Survival",
-			"shortName": "Survival",
-			"source": "heroeshandbook:hunter",
+			"source": "HH21Hunter",
 			"subclassFeatures": [
-				"Predator|Hunter|heroeshandbook:hunter|Survival|heroeshandbook:hunter|3",
-				"Camouflage|Hunter|heroeshandbook:hunter|Survival|heroeshandbook:hunter|7",
-				"Marked Counter|Hunter|heroeshandbook:hunter|Survival|heroeshandbook:hunter|11",
-				"Aspect of the Beast|Hunter|heroeshandbook:hunter|Survival|heroeshandbook:hunter|15"
+				"Predator|Hunter|HH21Hunter|Survival|HH21Hunter|3",
+				"Camouflage|Hunter|HH21Hunter|Survival|HH21Hunter|7",
+				"Marked Counter|Hunter|HH21Hunter|Survival|HH21Hunter|11",
+				"Aspect of the Beast|Hunter|HH21Hunter|Survival|HH21Hunter|15"
 			],
+			"shortName": "Survival",
 			"className": "Hunter",
-			"classSource": "heroeshandbook:hunter"
+			"classSource": "HH21Hunter"
 		}
 	]
 }
