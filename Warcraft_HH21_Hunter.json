@@ -13,9 +13,6 @@
 			"url": "https://www.reddit.com/r/wc5e/comments/av2256/warcraft_heroes_handbook_v21/",
 			"version": "2.1"
 		}],
-		"optionalFeatureTypes": {
-			"Hunter:R": "Alchemy Recipe"
-		},
 		"dateAdded": 1557168726,
 		"dateLastModified": 1557168726
 	},
@@ -795,7 +792,7 @@
 		"source": "heroeshandbook:hunter",
 		"className": "Hunter",
 		"classSource": "heroeshandbook:hunter",
-		"subclassShortName": "Beastmaster",
+		"subclassShortName": "Beast Master",
 		"subclassSource": "heroeshandbook:hunter",
 		"level": 3,
 		"entries": [
@@ -813,7 +810,7 @@
 		"source": "heroeshandbook:hunter",
 		"className": "Hunter",
 		"classSource": "heroeshandbook:hunter",
-		"subclassShortName": "Beastmaster",
+		"subclassShortName": "Beast Master",
 		"subclassSource": "heroeshandbook:hunter",
 		"level": 3,
 		"header": 1
@@ -822,7 +819,7 @@
 		"source": "heroeshandbook:hunter",
 		"className": "Hunter",
 		"classSource": "heroeshandbook:hunter",
-		"subclassShortName": "Beastmaster",
+		"subclassShortName": "Beast Master",
 		"subclassSource": "heroeshandbook:hunter",
 		"level": 7,
 		"header": 2,
@@ -835,7 +832,7 @@
 		"source": "heroeshandbook:hunter",
 		"className": "Hunter",
 		"classSource": "heroeshandbook:hunter",
-		"subclassShortName": "Beastmaster",
+		"subclassShortName": "Beast Master",
 		"subclassSource": "heroeshandbook:hunter",
 		"level": 11,
 		"header": 2,
@@ -872,7 +869,7 @@
 		"source": "heroeshandbook:hunter",
 		"className": "Hunter",
 		"classSource": "heroeshandbook:hunter",
-		"subclassShortName": "Beastmaster",
+		"subclassShortName": "Beast Master",
 		"subclassSource": "heroeshandbook:hunter",
 		"level": 15,
 		"header": 2,
@@ -1066,7 +1063,7 @@
 	}],
 	"subclass": [{
 			"name": "Archetype Beast Master",
-			"shortName": "Beastmaster",
+			"shortName": "Beast Master",
 			"source": "heroeshandbook:hunter",
 			"subclassFeatures": [
 				"Dire Tamer|Hunter|heroeshandbook:hunter|Beast Master|heroeshandbook:hunter|3",
