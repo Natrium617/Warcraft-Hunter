@@ -1066,7 +1066,7 @@
 	}],
 	"subclass": [{
 			"name": "Archetype Beast Master",
-			"shortName": "Beast Master",
+			"shortName": "Beastmaster",
 			"source": "heroeshandbook:hunter",
 			"subclassFeatures": [
 				"Dire Tamer|Hunter|heroeshandbook:hunter|Beast Master|heroeshandbook:hunter|3",
